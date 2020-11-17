@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Noto Serif";
+    src: url(../Fonts/Noto_Serif/NotoSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Noto bold";
+    src: url(../Fonts/Noto_Serif/NotoSerif-Bold.ttf);
+}
+@font-face{
+    font-family: "franchise";
+    src: url(..Fonts/franchise/Franchise.ttf);
+}
+
+#headerinicio {
+    font-family: "franchise";
+    margin-bottom: 110px;
+     margin-top: 50px;
+}
+#titulo{
+    margin-top: 60px;
+}
+#bodyinicio{
+    font-family: "bebas";
+    margin-bottom: 200px;
+    font-family: "franchisefilled";
+}
+
+
+#sectioninicio {
+   
+   margin-top: 200px;
+    text-align: center;
+    font-family: "bebas";
+    
+}
+#principal {
+    list-style: none;
+}
+button {
+    color: snow!important;
+    font-family: Arial;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    background: #6C4A25;
+    border-radius: 15px;
+    border: 3px #6c4a25;
+}
+footer {
+    padding-bottom: 20px;
+}
+input {
+    border-radius: 15px;
+    font-family: arial;
+    margin-right: 300px;
+}
+textarea {
+    border-radius: 15px;
+    font-family: arial;
+}
+
+
+#información{
+     font-family: "Noto Serif";
+    text-align: justify;
+    padding: 200px;
+    padding-top: 80px;
+    background-color:#F4ECE3 ;
+    
+}
+#titulos {
+    font-family: "Noto bold";
+}
+#contenido{
+    background-color: #EDD6BC; 
+    margin-top:70px;
+}
+
+
+
+
+
+
