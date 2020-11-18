@@ -1,3 +1,8 @@
+
+@font-face {
+    font-family: "franchise";
+    src: url(../Fonts/franchise_2/Franchise.ttf);
+}
 @font-face {
     font-family: "Noto Serif";
     src: url(../Fonts/Noto_Serif/NotoSerif-Regular.ttf);
@@ -7,11 +12,14 @@
     font-family: "Noto bold";
     src: url(../Fonts/Noto_Serif/NotoSerif-Bold.ttf);
 }
-@font-face{
-    font-family: "franchise";
-    src: url(..Fonts/franchise/Franchise.ttf);
+@font-face {
+    font-family: "bebas";
+    src: url(../Fonts/bebas/Bebas-Regular.otf);
 }
-
+@font-face {
+    font-family: "mollen";
+    src: url(../Fonts/mollen/Mollen-BoldCondensed.otf);
+}
 #headerinicio {
     font-family: "franchise";
     margin-bottom: 110px;
@@ -21,25 +29,33 @@
     margin-top: 60px;
 }
 #bodyinicio{
-    font-family: "bebas";
+    
     margin-bottom: 200px;
-    font-family: "franchisefilled";
+    font-family: "mollen";
+}
+#body {
+    width: 100%;
+    height: 640px;
+    background-image: url(../Imágenes/wallpaper.jpg);
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
 }
 
 
 #sectioninicio {
-   
+    
    margin-top: 200px;
     text-align: center;
-    font-family: "bebas";
+    font-family: "mollen";
     
 }
 #principal {
     list-style: none;
 }
 button {
+    text-decoration: none;
     color: snow!important;
-    font-family: Arial;
     padding: 3px;
     padding-left: 10px;
     padding-right: 10px;
@@ -48,35 +64,61 @@ button {
     border-radius: 15px;
     border: 3px #6c4a25;
 }
+.button {
+    text-decoration: none;
+    font-family: "bebas";
+    color: snow;
+    font-weight: bold;
+}
 footer {
     padding-bottom: 20px;
 }
 input {
     border-radius: 15px;
-    font-family: arial;
-    margin-right: 300px;
+    font-family: "mollen";
+    margin-right: 1220px;
 }
 textarea {
     border-radius: 15px;
-    font-family: arial;
+    font-family: "mollen";
+    margin-right: 850px;
 }
 
 
 #información{
-     font-family: "Noto Serif";
-    text-align: justify;
-    padding: 200px;
-    padding-top: 80px;
-    background-color:#F4ECE3 ;
-    
+ font-family: "Noto Serif";
+ text-align: justify;
+
 }
+
 #titulos {
     font-family: "Noto bold";
 }
 #contenido{
     background-color: #EDD6BC; 
     margin-top:70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 30px;
 }
+.imgcontenido {
+   margin-left: 260px;
+}
+#videosfinales{
+    margin-top: 100px;
+    background-color: rgba(194, 149, 109, 0.959);
+    padding: 60px;
+}
+.videosf{
+    width: 400px;
+    height: 300px;
+}
+
+.footer {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+}
+
 
 
 
