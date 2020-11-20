@@ -1,4 +1,5 @@
 
+
 @font-face {
     font-family: "franchise";
     src: url(../Fonts/franchise_2/Franchise.ttf);
@@ -19,6 +20,21 @@
 @font-face {
     font-family: "mollen";
     src: url(../Fonts/mollen/Mollen-BoldCondensed.otf);
+}
+#animada {
+    animation-duration: 12s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+    
 }
 #headerinicio {
     font-family: "franchise";
@@ -50,9 +66,7 @@
     font-family: "mollen";
     
 }
-#principal {
-    list-style: none;
-}
+
 button {
     text-decoration: none;
     color: snow!important;
@@ -62,7 +76,7 @@ button {
     font-size: 20px;
     background: #6C4A25;
     border-radius: 15px;
-    border: 3px #6c4a25;
+    border:none;
 }
 .button {
     text-decoration: none;
@@ -70,24 +84,67 @@ button {
     color: snow;
     font-weight: bold;
 }
+.button:hover {
+    color: snow ;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    background:#D5A85A ;
+    border-radius: 15px;
+    border:none;
+}
+
 footer {
     padding-bottom: 20px;
 }
 input {
     border-radius: 15px;
     font-family: "mollen";
-    margin-right: 1220px;
+    margin-left: 0px;
 }
 textarea {
     border-radius: 15px;
     font-family: "mollen";
-    margin-right: 850px;
+    
+}
+.botonok{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color:#5c3f27 ;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+  }
+  .botonok:hover{
+    background-color:#A67F3B;
+  }
+
+.extras {
+    background-color: #5c3f27;
+    
+}
+.li {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: snow;
+}
+.a:hover{
+    color:#A67F3B;
 }
 
 
 #información{
  font-family: "Noto Serif";
  text-align: justify;
+ background-image: url(/Imágenes/wallpaper.jpg);
 
 }
 
@@ -95,11 +152,20 @@ textarea {
     font-family: "Noto bold";
 }
 #contenido{
-    background-color: #EDD6BC; 
+    background-color:  #DCB893 ; 
     margin-top:70px;
     margin-left: 200px;
     margin-right: 200px;
     padding: 30px;
+}
+.central {
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+.recomendaciones {
+    display: inline-flex;
+    justify-content: space-between;
 }
 .imgcontenido {
    margin-left: 260px;
